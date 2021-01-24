@@ -147,3 +147,25 @@
 // } 
 
 //------------------- EQUALITY OPERATORS == VS === ------------------------------
+
+const age = 18; 
+
+if ( age === "18")  console.log("they're 18 (strict comparison)")
+
+
+if ( age == "18")  console.log("they're 18 (loose comparison)")
+
+const favNumber = Number(prompt("what is your favorite number?"))
+//turn the user input into a number so that we can === it and the difference in value won't be a problem 
+
+console.log(favNumber)
+
+if (favNumber === 4){ 
+    console.log("that's my fav too")
+} else if( favNumber === 7){
+    console.log("7 is my second favorite")
+} else {
+    console.log ("you have bad taste in numbers :) ")
+}
+
+if (favNumber !== 4 ) console.log("consider 4 though tehe ")
