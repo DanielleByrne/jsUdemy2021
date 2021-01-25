@@ -171,9 +171,9 @@
 
 //------------------- BOOLEAN LOGIC ------------------------------
 
-const hasDriversLicense = true;
+const hasDriversLicense = true; //A 
 
-const hasGoodVision = false;
+const hasGoodVision = true; // B
 
 console.log(hasDriversLicense && hasGoodVision);
 console.log(hasDriversLicense || hasGoodVision);
@@ -181,8 +181,18 @@ console.log(!hasDriversLicense);
 
 const shouldDrive = hasDriversLicense && hasGoodVision;
 
-if (shouldDrive) {
-  console.log("They can go for a drive!");
-} else {
-  console.log("They either need a license or to go to the eye doctor");
-}
+// if (shouldDrive) {
+//   console.log("They can go for a drive!");
+// } else {
+//   console.log("They either need a license or to go to the eye doctor");
+// }
+
+const  isTired = false; // C
+
+console.log (hasDriversLicense && hasGoodVision && isTired)
+
+if (hasGoodVision && hasDriversLicense && !isTired) {
+    console.log("They can go for a drive!");
+  } else {
+    console.log("They either need a license or to go to the eye doctor");
+  }
