@@ -171,28 +171,28 @@
 
 //------------------- BOOLEAN LOGIC ------------------------------
 
-const hasDriversLicense = true; //A 
+// const hasDriversLicense = true; //A 
 
-const hasGoodVision = true; // B
+// const hasGoodVision = true; // B
 
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
-const shouldDrive = hasDriversLicense && hasGoodVision;
+// const shouldDrive = hasDriversLicense && hasGoodVision;
 
-// if (shouldDrive) {
-//   console.log("They can go for a drive!");
-// } else {
-//   console.log("They either need a license or to go to the eye doctor");
-// }
+// // if (shouldDrive) {
+// //   console.log("They can go for a drive!");
+// // } else {
+// //   console.log("They either need a license or to go to the eye doctor");
+// // }
 
-const  isTired = false; // C
+// const  isTired = false; // C
 
-console.log (hasDriversLicense && hasGoodVision && isTired)
+// console.log (hasDriversLicense && hasGoodVision && isTired)
 
-if (hasGoodVision && hasDriversLicense && !isTired) {
-    console.log("They can go for a drive!");
-  } else {
-    console.log("They either need a license or to go to the eye doctor");
-  }
+// if (hasGoodVision && hasDriversLicense && !isTired) {
+//     console.log("They can go for a drive!");
+//   } else {
+//     console.log("They either need a license or to go to the eye doctor");
+//   }
