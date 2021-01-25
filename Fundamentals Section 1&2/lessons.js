@@ -132,40 +132,57 @@
 // const money = 100;
 
 // if (money) {
-//   //js converts things where "money" is to a boolean, if true, else if false, coersion  
+//   //js converts things where "money" is to a boolean, if true, else if false, coersion
 //   console.log("Don't spend it all in one place");
 // } else {
 //   console.log("get a job loser");
 // }
 
 // let height = 0;
-// // if we set height to 0 it will be undefined still because 0 is a falsy value 
+// // if we set height to 0 it will be undefined still because 0 is a falsy value
 // if (height){
 //   console.log("you defined height")
 // } else {
 //   console.log ("height is undefined ")
-// } 
+// }
 
 //------------------- EQUALITY OPERATORS == VS === ------------------------------
 
-const age = 18; 
+// const age = 18;
 
-if ( age === "18")  console.log("they're 18 (strict comparison)")
+// if ( age === "18")  console.log("they're 18 (strict comparison)")
 
+// if ( age == "18")  console.log("they're 18 (loose comparison)")
 
-if ( age == "18")  console.log("they're 18 (loose comparison)")
+// const favNumber = Number(prompt("what is your favorite number?"))
+// //turn the user input into a number so that we can === it and the difference in value won't be a problem
 
-const favNumber = Number(prompt("what is your favorite number?"))
-//turn the user input into a number so that we can === it and the difference in value won't be a problem 
+// console.log(favNumber)
 
-console.log(favNumber)
+// if (favNumber === 4){
+//     console.log("that's my fav too")
+// } else if( favNumber === 7){
+//     console.log("7 is my second favorite")
+// } else {
+//     console.log ("you have bad taste in numbers :) ")
+// }
 
-if (favNumber === 4){ 
-    console.log("that's my fav too")
-} else if( favNumber === 7){
-    console.log("7 is my second favorite")
+// if (favNumber !== 4 ) console.log("consider 4 though tehe ")
+
+//------------------- BOOLEAN LOGIC ------------------------------
+
+const hasDriversLicense = true;
+
+const hasGoodVision = false;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+if (shouldDrive) {
+  console.log("They can go for a drive!");
 } else {
-    console.log ("you have bad taste in numbers :) ")
+  console.log("They either need a license or to go to the eye doctor");
 }
-
-if (favNumber !== 4 ) console.log("consider 4 though tehe ")
