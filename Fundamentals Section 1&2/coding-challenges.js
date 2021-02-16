@@ -105,18 +105,21 @@
 
 // GOOD LUCK 😀
 
- dolphinsAvg = (96 + 108 + 89) / 3 
+ dolphinsAvg = (109 + 108 + 89) / 3 
  console.log(dolphinsAvg)
 
- koalasAvg = (96 + 108 + 89) / 3
+ koalasAvg = (109 + 108 + 89) / 3
  console.log (koalasAvg)
 
- if (dolphinsAvg > koalasAvg){
+ if (dolphinsAvg > koalasAvg && dolphinsAvg > 100){
      console.log(" Dolphins win the competition")
  } 
- else if (koalasAvg> dolphinsAvg){
+ else if (koalasAvg> dolphinsAvg && koalasAvg > 100){
     console.log("Koalas win the competition")
  }
- else{
+ else if (dolphinsAvg === koalasAvg && dolphinsAvg > 100 || koalasAvg >100 ){
      console.log("it's a tie ")
+ }
+ else{
+     console.log(" no one wins this time ")
  }
