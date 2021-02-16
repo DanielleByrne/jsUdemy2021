@@ -199,27 +199,37 @@
 
 //------------------- THE SWITCH STATEMENT  ------------------------------
 
-const day = "monday";
+// const day = "monday";
 
-switch (day) {
-  case "monday":
-    console.log("do udemy course");
-    console.log("go to sushi");
-    break;
-  case "tuesday":
-    console.log("study");
-    break;
-  case "wednesday":
-  case "thursday":
-    console.log("do udemy course and workout");
-    break;
-  case "friday":
-    console.log("relax but still code");
-    break;
-  case "saturday":
-  case "sunday":
-    console.log("enjoy the weekend :)");
-    break;
-    default:
-        console.log("not a valid day!")
-}
+// switch (day) {
+//   case "monday":
+//     console.log("do udemy course");
+//     console.log("go to sushi");
+//     break;
+//   case "tuesday":
+//     console.log("study");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("do udemy course and workout");
+//     break;
+//   case "friday":
+//     console.log("relax but still code");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("enjoy the weekend :)");
+//     break;
+//     default:
+//         console.log("not a valid day!")
+// }
+
+//------------------- THE CONDITIONAL (TERNARY) OPERATOR  ------------------------------
+
+// const age = 23;
+
+// age >= 18 ? console.log("I like to drink wine") : console.log(" I have to drink water ") 
+
+// const drinkingAge = age >= 21 ? "beer" : "water" ;
+// console.log(drinkingAge)
+
