@@ -226,10 +226,11 @@
 
 //------------------- THE CONDITIONAL (TERNARY) OPERATOR  ------------------------------
 
-// const age = 23;
+const age = 13;
 
-// age >= 18 ? console.log("I like to drink wine") : console.log(" I have to drink water ") 
+age >= 18 ? console.log("I like to drink wine") : console.log(" I have to drink water ") 
 
-// const drinkingAge = age >= 21 ? "beer" : "water" ;
-// console.log(drinkingAge)
+const drinkingAge = age >= 21 ? "beer" : "water" ;
+console.log(drinkingAge)
 
+console.log(`I like to drink ${age >= 21 ? "beer" : "water" }`)
