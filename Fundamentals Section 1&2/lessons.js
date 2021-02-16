@@ -171,7 +171,7 @@
 
 //------------------- BOOLEAN LOGIC ------------------------------
 
-// const hasDriversLicense = true; //A 
+// const hasDriversLicense = true; //A
 
 // const hasGoodVision = true; // B
 
@@ -196,3 +196,30 @@
 //   } else {
 //     console.log("They either need a license or to go to the eye doctor");
 //   }
+
+//------------------- THE SWITCH STATEMENT  ------------------------------
+
+const day = "monday";
+
+switch (day) {
+  case "monday":
+    console.log("do udemy course");
+    console.log("go to sushi");
+    break;
+  case "tuesday":
+    console.log("study");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("do udemy course and workout");
+    break;
+  case "friday":
+    console.log("relax but still code");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("enjoy the weekend :)");
+    break;
+    default:
+        console.log("not a valid day!")
+}

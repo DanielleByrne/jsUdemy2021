@@ -103,21 +103,21 @@
 
 // GOOD LUCK 😀
 
-dolphinsAvg = (96 + 108 + 89) / 3;
-console.log(dolphinsAvg);
+// dolphinsAvg = (96 + 108 + 89) / 3;
+// console.log(dolphinsAvg);
 
-koalasAvg = (88 + 100 + 110) / 3;
-console.log(koalasAvg);
+// koalasAvg = (88 + 100 + 110) / 3;
+// console.log(koalasAvg);
 
-if (dolphinsAvg > koalasAvg && dolphinsAvg > 100) {
-  console.log("Dolphins win the competition");
-} else if (koalasAvg > dolphinsAvg) {
-  console.log("Koalas win the competition");
-} else if (
-  (dolphinsAvg === koalasAvg && dolphinsAvg > 100) ||
-  koalasAvg > 100
-) {
-  console.log("it's a tie ");
-} else {
-  console.log("no one wins this time");
-}
+// if (dolphinsAvg > koalasAvg && dolphinsAvg > 100) {
+//   console.log("Dolphins win the competition");
+// } else if (koalasAvg > dolphinsAvg) {
+//   console.log("Koalas win the competition");
+// } else if (
+//   (dolphinsAvg === koalasAvg && dolphinsAvg > 100) ||
+//   koalasAvg > 100
+// ) {
+//   console.log("it's a tie ");
+// } else {
+//   console.log("no one wins this time");
+// }
