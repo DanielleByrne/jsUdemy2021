@@ -236,3 +236,4 @@
 // console.log(`I like to drink ${age >= 21 ? "beer" : "water" }`)
 
 
+//------------------- ES5 ES6 and ESNext  ------------------------------
