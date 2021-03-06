@@ -9,22 +9,27 @@
 // if (hasDriversLicense) console.log("they can drive ");
 
 //---------------------------------------- FUNCTIONS --------------------------
-function logger() {
-  console.log("my name is dani");
-}
+// function logger() {
+//   console.log("my name is dani");
+// }
 
-logger();
+// logger();
 
-function fruitProcessor(apples, oranges) {
-  //   console.log(apples, oranges);
-  const juice = `juice with ${apples} apples and ${oranges} oranges`;
-  return juice;
-}
+// function fruitProcessor(apples, oranges) {
+//   //   console.log(apples, oranges);
+//   const juice = `juice with ${apples} apples and ${oranges} oranges`;
+//   return juice;
+// }
 
-fruitProcessor(5, 0);
+// fruitProcessor(5, 0);
 
-const appleJuice = fruitProcessor(5, 0);
-console.log(appleJuice);
+// const appleJuice = fruitProcessor(5, 0);
+// console.log(appleJuice);
 
-const appleOrangeJuice = fruitProcessor(2, 4);
-console.log(appleOrangeJuice);
+// const appleOrangeJuice = fruitProcessor(2, 4);
+// console.log(appleOrangeJuice);
+
+
+//---------------------------------------- FUNCTION DECLARATION VS EXPRESSION --------------------------
+
+
