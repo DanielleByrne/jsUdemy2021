@@ -29,7 +29,25 @@
 // const appleOrangeJuice = fruitProcessor(2, 4);
 // console.log(appleOrangeJuice);
 
-
 //---------------------------------------- FUNCTION DECLARATION VS EXPRESSION --------------------------
+// function declaration
+// const age1 = calcAge1(1995)
+
+// function calcAge1 (birthYear){
+//     return 2037 - birthYear;
+// }
 
 
+
+
+// //function expression
+
+
+// const calcAge2 = function (birthYear) {
+//   return 2037 - birthYear;
+// };
+// const age2 = calcAge2(1995);
+
+// console.log(age1, age2);
+
+//---------------------------------------- ARROW FUNCTIONS --------------------------
