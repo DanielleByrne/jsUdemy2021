@@ -118,23 +118,41 @@
 // const danielle = ["danielle", "byrne", 2021 - 1995, friends, "student"];
 // console.log(danielle);
 
-const calcAge = function (birthYear) {
-  return 2021 - birthYear;
-};
+// const calcAge = function (birthYear) {
+//   return 2021 - birthYear;
+// };
 
-const birthYears = [1996, 1967, 1902, 1975, 2012];
+// const birthYears = [1996, 1967, 1902, 1975, 2012];
 
-const age1 = calcAge(birthYears[0]);
-const age2 = calcAge(birthYears[1]);
-const age3 = calcAge(birthYears[2]);
-const age4 = calcAge(birthYears[birthYears.length - 1]);
+// const age1 = calcAge(birthYears[0]);
+// const age2 = calcAge(birthYears[1]);
+// const age3 = calcAge(birthYears[2]);
+// const age4 = calcAge(birthYears[birthYears.length - 1]);
 
-console.log(age1, age2, age3, age4);
+// console.log(age1, age2, age3, age4);
 
-const ages = [
-  calcAge(birthYears[0]),
-  calcAge(birthYears[1]),
-  calcAge(birthYears[3]),
-  calcAge(birthYears[birthYears.length - 1]),
-];
-console.log(ages)
+// const ages = [
+//   calcAge(birthYears[0]),
+//   calcAge(birthYears[1]),
+//   calcAge(birthYears[3]),
+//   calcAge(birthYears[birthYears.length - 1]),
+// ];
+// console.log(ages)
+
+//-----------------------------------------  BASIC ARRAY OPERATIONS (METHODS) --------------------------------------------
+const friends = ["mike", "pete", "steve"];
+
+ const newLength = friends.push("tim");
+ 
+ friends.unshift("john")
+
+ friends.pop(); // removes last element in array
+ 
+ friends.shift(); // removes first thing in the array
+
+ friends.indexOf("steve")// tells you where in the array it is
+
+ friends.includes("steve") // returns true/false for wheter or not it's in the array
+// odoesn't do type coersion, strict equality, can be used in conditionals 
+
+
