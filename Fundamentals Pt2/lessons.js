@@ -142,18 +142,29 @@
 //-----------------------------------------  BASIC ARRAY OPERATIONS (METHODS) --------------------------------------------
 // const friends = ["mike", "pete", "steve"];
 
-//  const newLength = friends.push("tim"); // adds to the back 
- 
-//  friends.unshift("john") // adds to the front 
+//  const newLength = friends.push("tim"); // adds to the back
+
+//  friends.unshift("john") // adds to the front
 
 //  friends.pop(); // removes last element in array, also stores what was removed if you save it in a const
- 
+
 //  friends.shift(); // removes first thing in the array
 
 //  friends.indexOf("steve")// tells you where in the array it is
 
 //  friends.includes("steve") // returns true/false for wheter or not it's in the array
-// // odoesn't do type coersion, strict equality, can be used in conditionals 
+// // odoesn't do type coersion, strict equality, can be used in conditionals
+
+// //----------------------------------------- INTRO TO OBJECTS --------------------------------------------
+// const daniArray = ["Danielle", "Byrne", 25, ["Brandon", "Leslie", "Kacie"]];
+
+// const dani = {
+//   firstName: "Danielle",
+//   lastName: "Byrne",
+//   age: "25",
+//   job: "student",
+//   friends: ["Brandon", "Leslie", "Kiersten"],
+// };
 
 
-//-----------------------------------------  --------------------------------------------
+//----------------------------------------- DOT VS BRACKET NOTATION --------------------------------------------
