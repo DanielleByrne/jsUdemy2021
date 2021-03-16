@@ -168,35 +168,54 @@
 
 //----------------------------------------- DOT VS BRACKET NOTATION --------------------------------------------
 
-const dani = {
-  firstName: "Danielle",
+// const dani = {
+//   firstName: "Danielle",
+//   lastName: "Byrne",
+//   age: "25",
+//   job: "student",
+//   friends: ["Brandon", "Leslie", "Kiersten"],
+// };
+
+// console.log(dani.firstName);
+// console.log(dani["firstName"]);
+
+// const nameKey = "Name";
+
+// console.log(dani["first" + nameKey]);
+// console.log(dani["last" + nameKey]);
+
+// const interestedIn = prompt(
+//   "What do you want to know about me? choose between firstName, lastName, age, job, and friends"
+// );
+
+// if (dani[interestedIn]) {
+//   console.log(dani[interestedIn]);
+// } else {
+//   console.log("please pick a valid value");
+// }
+
+// dani.location = "Vegas";
+
+// // challenge
+// //" danielle has 3 friends and his best firend is called Brandon"
+
+// console.log(`${dani.firstName} has ${dani.friends.length} and her best friend is ${dani.friends[0]}`)
+
+//----------------------------------------- OBJECT METHODS --------------------------------------------
+
+const danielle = {
+  firstName: " Danielle",
   lastName: "Byrne",
-  age: "25",
+  birthYear: 1995,
   job: "student",
-  friends: ["Brandon", "Leslie", "Kiersten"],
+  friends: ["Brandon", "Leslie", "Kacie"],
+  hasDriversLicense: true,
+  calcAge: function () {
+    this.age = 2021 - this.birthYear;
+    return this.age;
+  },
+
 };
+console.log(danielle.calcAge());
+console.log(danielle.age);
 
-console.log(dani.firstName);
-console.log(dani["firstName"]);
-
-const nameKey = "Name";
-
-console.log(dani["first" + nameKey]);
-console.log(dani["last" + nameKey]);
-
-const interestedIn = prompt(
-  "What do you want to know about me? choose between firstName, lastName, age, job, and friends"
-);
-
-if (dani[interestedIn]) {
-  console.log(dani[interestedIn]);
-} else {
-  console.log("please pick a valid value");
-}
-
-dani.location = "Vegas";
-
-// challenge 
-//" danielle has 3 friends and his best firend is called Brandon"
-
-console.log(`${dani.firstName} has ${dani.friends.length} and her best friend is ${dani.friends[0]}`)
