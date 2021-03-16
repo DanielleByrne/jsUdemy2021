@@ -246,11 +246,11 @@ const danielle = [
 
 const types = [];
 
-for (let i = 0; i < danielle.length; i++) {
-  console.log(danielle[i]);
-//   types[i] = typeof danielle[i];
-types.push(typeof danielle[i])
-}
+// for (let i = 0; i < danielle.length; i++) {
+//   console.log(danielle[i]);
+// //   types[i] = typeof danielle[i];
+// types.push(typeof danielle[i])
+// }
 
 console.log(types)
 
@@ -262,3 +262,17 @@ for (let i=0; i < years.length; i++){
 }
 
 console.log(ages)
+console.log("STRING CONTINUE")
+
+for( let i = 0 ; i < danielle.length; i ++){
+    if(typeof danielle[i] !== "string") continue;
+
+    console.log(danielle[i])
+}
+
+console.log("NUMBER BREAK")
+for( let i = 0 ; i < danielle.length; i ++){
+    if(typeof danielle[i] === 'number') break;
+
+    console.log(danielle[i])
+}
