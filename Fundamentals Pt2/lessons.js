@@ -215,7 +215,14 @@ const danielle = {
     return this.age;
   },
 
+  getSummary: function () {
+    return `${this.firstName} is ${this.calcAge()} a year old ${
+      this.job
+    },( what a loser am i right ) and she has ${this.hasDriversLicense ? "a" : "no"} drivers license.`;
+  },
 };
+
 console.log(danielle.calcAge());
 console.log(danielle.age);
 
+console.log(danielle.getSummary());
