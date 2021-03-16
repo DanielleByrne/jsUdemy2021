@@ -203,26 +203,26 @@
 
 //----------------------------------------- OBJECT METHODS --------------------------------------------
 
-const danielle = {
-  firstName: " Danielle",
-  lastName: "Byrne",
-  birthYear: 1995,
-  job: "student",
-  friends: ["Brandon", "Leslie", "Kacie"],
-  hasDriversLicense: true,
-  calcAge: function () {
-    this.age = 2021 - this.birthYear;
-    return this.age;
-  },
+// const danielle = {
+//   firstName: " Danielle",
+//   lastName: "Byrne",
+//   birthYear: 1995,
+//   job: "student",
+//   friends: ["Brandon", "Leslie", "Kacie"],
+//   hasDriversLicense: true,
+//   calcAge: function () {
+//     this.age = 2021 - this.birthYear;
+//     return this.age;
+//   },
 
-  getSummary: function () {
-    return `${this.firstName} is ${this.calcAge()} a year old ${
-      this.job
-    },( what a loser am i right ) and she has ${this.hasDriversLicense ? "a" : "no"} drivers license.`;
-  },
-};
+//   getSummary: function () {
+//     return `${this.firstName} is ${this.calcAge()} a year old ${
+//       this.job
+//     },( what a loser am i right ) and she has ${this.hasDriversLicense ? "a" : "no"} drivers license.`;
+//   },
+// };
 
-console.log(danielle.calcAge());
-console.log(danielle.age);
+// console.log(danielle.calcAge());
+// console.log(danielle.age);
 
-console.log(danielle.getSummary());
+// console.log(danielle.getSummary());
