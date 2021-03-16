@@ -235,44 +235,69 @@
 
 //----------------------------------------- LOOPING ARRAYS  --------------------------------------------
 
-const danielle = [
-  "Danielle",
-  "Byrne",
-  2021 - 1995,
-  "student",
-  ["Brandon", "Leslie", "Kiersten"],
-  "hungry",
-];
+// const danielle = [
+//   "Danielle",
+//   "Byrne",
+//   2021 - 1995,
+//   "student",
+//   ["Brandon", "Leslie", "Kiersten"],
+//   "hungry",
+// ];
 
-const types = [];
+// const types = [];
 
-// for (let i = 0; i < danielle.length; i++) {
-//   console.log(danielle[i]);
-// //   types[i] = typeof danielle[i];
-// types.push(typeof danielle[i])
+// // for (let i = 0; i < danielle.length; i++) {
+// //   console.log(danielle[i]);
+// // //   types[i] = typeof danielle[i];
+// // types.push(typeof danielle[i])
+// // }
+
+// console.log(types)
+
+// const years = [ 1991, 2012, 1975, 1995, 1993 ];
+// const ages = [];
+
+// for (let i=0; i < years.length; i++){
+//     ages.push(2021 - years[i])
 // }
 
-console.log(types)
+// console.log(ages)
+// console.log("STRING CONTINUE")
 
-const years = [ 1991, 2012, 1975, 1995, 1993 ];
-const ages = [];
+// for( let i = 0 ; i < danielle.length; i ++){
+//     if(typeof danielle[i] !== "string") continue;
 
-for (let i=0; i < years.length; i++){
-    ages.push(2021 - years[i])
-}
+//     console.log(danielle[i])
+// }
 
-console.log(ages)
-console.log("STRING CONTINUE")
+// console.log("NUMBER BREAK")
+// for( let i = 0 ; i < danielle.length; i ++){
+//     if(typeof danielle[i] === 'number') break;
 
-for( let i = 0 ; i < danielle.length; i ++){
-    if(typeof danielle[i] !== "string") continue;
+//     console.log(danielle[i])
+// }
 
-    console.log(danielle[i])
-}
+//-----------------------------------------  LOOPING BACKWARDS AND LOOPS IN LOOPS  --------------------------------------------
 
-console.log("NUMBER BREAK")
-for( let i = 0 ; i < danielle.length; i ++){
-    if(typeof danielle[i] === 'number') break;
+// const danielle = [
+//   "Danielle",
+//   "Byrne",
+//   2021 - 1995,
+//   "student",
+//   ["Brandon", "Leslie", "Kiersten"],
+// ];
 
-    console.log(danielle[i])
-}
+// for (let i = danielle.length - 1; i >= 0; i--) {
+//     console.log(danielle[i])
+// }
+
+
+// for (let exercise = 1; exercise <= 3 ; exercise ++){
+//     console.log(`--------statring exercise ${exercise}`)
+
+//     for ( let rep = 1; rep < 6 ; rep ++){
+//         console.log(`lifting weight rep ${rep} 💪🏻`)
+//     }
+// }
+
+//-----------------------------------------  THE WHILE LOOP  --------------------------------------------
