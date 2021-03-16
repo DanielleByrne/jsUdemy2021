@@ -226,3 +226,10 @@
 // console.log(danielle.age);
 
 // console.log(danielle.getSummary());
+
+
+//----------------------------------------- THE FOR LOOP --------------------------------------------
+
+// for (let rep = 1; rep <= 10; rep ++){
+//     console.log(`lifting weights repition number ${rep}`)
+// }
