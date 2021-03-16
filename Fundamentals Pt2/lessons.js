@@ -227,9 +227,38 @@
 
 // console.log(danielle.getSummary());
 
-
 //----------------------------------------- THE FOR LOOP --------------------------------------------
 
 // for (let rep = 1; rep <= 10; rep ++){
 //     console.log(`lifting weights repition number ${rep}`)
 // }
+
+//----------------------------------------- LOOPING ARRAYS  --------------------------------------------
+
+const danielle = [
+  "Danielle",
+  "Byrne",
+  2021 - 1995,
+  "student",
+  ["Brandon", "Leslie", "Kiersten"],
+  "hungry",
+];
+
+const types = [];
+
+for (let i = 0; i < danielle.length; i++) {
+  console.log(danielle[i]);
+//   types[i] = typeof danielle[i];
+types.push(typeof danielle[i])
+}
+
+console.log(types)
+
+const years = [ 1991, 2012, 1975, 1995, 1993 ];
+const ages = [];
+
+for (let i=0; i < years.length; i++){
+    ages.push(2021 - years[i])
+}
+
+console.log(ages)
