@@ -142,3 +142,41 @@
 // } else{
 //     console.log(`John's BMI (${john.bmi}) is higher than Marks's (${mark.bmi})!`)
 // }
+
+// CODING CHALLENGE THREE
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//Your tasks:
+
+//1. Create an array 'bills' containing all 10 test bill values
+//2. Create empty arrays for the tips and the totals ('tips' and 'totals')
+//3. Use the 'calcTip' function we wrote before (no need to repeat) to calculate tips and
+//total values (bill + tip) for every bill value in the bills array. Use a for loop to perform the 10 calculations!
+//Test data: 22, 295, 176, 440, 37, 105, 10, 1100, 86 and 52
+
+//Hints: Call ‘calcTip ‘in the loop and use the push method to add values to the
+//tips and totals arrays 😉
+
+// const bills = [46, 19, 63, 27, 87, 17, 102, 92, 420, 34];
+
+// const tips = [];
+// const totals = [];
+
+// // const caclTip = function (bills) {
+// //   if (bills <= 300 && bills >= 50) {
+// //     return bills * 0.15;
+// //   } else {
+// //     return bills * 0.2;
+// //   }
+// // };
+
+// for (let i = 0; i < bills.length; i++) {
+//   if (bills[i] <= 300 && bills[i] >= 50) {
+//     tips.push(bills[i] * 0.15);
+//   } else {
+//     tips.push(bills[i] * 0.2);
+//   }
+
+//   totals.push(bills[i] + tips[i]);
+// }
+// console.log(tips);
+// console.log(totals)
